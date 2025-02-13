@@ -1,0 +1,5 @@
+source "https://supermarket.chef.io"
+
+# Use the local copy of the docker cookbook
+cookbook 'docker', path: '../docker'
+
